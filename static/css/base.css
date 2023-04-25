@@ -27,9 +27,28 @@ body {
     width: fit-content;
 }
 
+.jumbotron {
+    background-color: rgba(219, 219, 217, 0.4);
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #f05f40;
+}
+
 #cover-text, #cover-text h2 {
     width: 300px;
-    height: 300px;
+    height: 250px;
     border-radius: 10px;
     padding-top: 20px;
     padding-left: 10px;
