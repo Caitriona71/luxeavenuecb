@@ -10,6 +10,21 @@ body {
     font-family: 'Lato';
 }
 
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    opacity: 0.6;
+}
+
+div.transbox h1 {
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+  }
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -25,34 +40,6 @@ body {
 
 .main-logo-link {
     width: fit-content;
-}
-
-.jumbotron {
-    background-color: rgba(219, 219, 217, 0.4);
-}
-
-.jumbotron h1 {
-    color: white;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-
-/* Block dividers */
-
-.block-divider {
-    width: 75px;
-    height: 5px;
-    border: 0;
-    background-color: #f05f40;
-}
-
-#cover-text, #cover-text h2 {
-    width: 300px;
-    height: 250px;
-    border-radius: 10px;
-    padding-top: 20px;
-    padding-left: 10px;
-    background-color: rgba(219, 219, 217, 0.7);
 }
 
 .shop-now-button {
@@ -86,6 +73,17 @@ body {
 
 .bg-black {
     background: #000 !important;
+}
+
+/* Footer */
+
+.container-wrapper {
+    background-color: rgb(245, 245, 245);
+}
+
+.container-wrapper * {
+    font-family: var(--font-family-aux);
+    color: var(--jet-light);
 }
 
 /* -------------------------------- Media Queries */
