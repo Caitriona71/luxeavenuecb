@@ -13,51 +13,53 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="jewellery-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Jewellery
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Necklaces</a>
-                <a href="" class="dropdown-item">Earrings</a>
-                <a href="" class="dropdown-item">Bracelets</a>
-                <a href="" class="dropdown-item">Watches</a>
-                <a href="" class="dropdown-item">All Jewellery</a>
+            <div class="dropdown-menu border-0" aria-labelledby="jewellery-link">
+                <a href="{% url 'products' %}?category=necklaces" class="dropdown-item">Necklaces</a>
+                <a href="{% url 'products' %}?category=earrings" class="dropdown-item">Earrings</a>
+                <a href="{% url 'products' %}?category=bracelets" class="dropdown-item">Bracelets</a>
+                <a href="{% url 'products' %}?category=watches" class="dropdown-item">Watches</a>
+                <a href="{% url 'products' %}?category=necklaces,earrings,bracelets,watches" class="dropdown-item">All Jewellery</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="bags-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Bags
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Handbags &amp; Purses</a>
-                <a href="" class="dropdown-item">Wallets</a>
-                <a href="" class="dropdown-item">Laptop Bags</a>
-                <a href="" class="dropdown-item">All Bags</a>
+            <div class="dropdown-menu border-0" aria-labelledby="bags-link">
+                <a href="{% url 'products' %}?category=handbags,purses" class="dropdown-item">Handbags &amp; Purses</a>
+                <a href="{% url 'products' %}?category=wallets" class="dropdown-item">Wallets</a>
+                <a href="{% url 'products' %}?category=laptop_bags" class="dropdown-item">Laptop Bags</a>
+                <a href="{% url 'products' %}?category=handbags,purses,wallets,laptop_bags" class="dropdown-item">All Bags</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="accessories-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Accessories
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Sunglasses</a>
-                <a href="" class="dropdown-item">Belts</a>
-                <a href="" class="dropdown-item">Luxury Pens</a>
-                <a href="" class="dropdown-item">All Accessories</a>
+            <div class="dropdown-menu border-0" aria-labelledby="accessories-link">
+                <a href="{% url 'products' %}?category=fragrance" class="dropdown-item">Fragrance</a>
+                <a href="{% url 'products' %}?category=sunglasses" class="dropdown-item">Sunglasses</a>
+                <a href="{% url 'products' %}?category=belts" class="dropdown-item">Belts</a>
+                <a href="{% url 'products' %}?category=luxury_pens" class="dropdown-item">Luxury Pens</a>
+                
+                <a href="{% url 'products' %}?category=fragrance,sunglasses,belts,luxury_pens,belts" class="dropdown-item">All Accessories</a>
             </div>
         </li>
-
+      
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Special Offers</a>
+                <a href="{% url 'products' %}?category=new_in" class="dropdown-item">New In</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_in,deals,clearance" class="dropdown-item">All Special Offers</a>
             </div>
         </li>
     </ul>
