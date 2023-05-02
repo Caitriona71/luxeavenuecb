@@ -85,6 +85,17 @@ div.transbox h1 {
 	z-index: -1;
 }
 
+a.category-badge > span.badge {
+    background: #e0ded5 !important;
+    color: #000 !important;
+    border-color: #000 !important;
+}
+
+a.category-badge > span.badge:hover {
+    background: #212529  !important;
+    color: #fff !important;
+}
+
 /* Footer */
 
 .container-wrapper {
