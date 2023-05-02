@@ -12,6 +12,11 @@
             </div>
         </li>
 
+         <!-- New In link -->
+         <li class="nav-item">
+            <a href="{% url 'products' %}?category=new_in" class="logo-font font-weight-bold nav-link text-black mr-5" id="new_in-link">New In</a>
+        </li>
+
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="jewellery-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Jewellery
@@ -42,13 +47,16 @@
                 Accessories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="accessories-link">
-                <a href="{% url 'products' %}?category=fragrance" class="dropdown-item">Fragrance</a>
                 <a href="{% url 'products' %}?category=sunglasses" class="dropdown-item">Sunglasses</a>
                 <a href="{% url 'products' %}?category=belts" class="dropdown-item">Belts</a>
-                <a href="{% url 'products' %}?category=luxury_pens" class="dropdown-item">Luxury Pens</a>
-                
-                <a href="{% url 'products' %}?category=fragrance,sunglasses,belts,luxury_pens,belts" class="dropdown-item">All Accessories</a>
+                <a href="{% url 'products' %}?category=luxury_pens" class="dropdown-item">Luxury Pens</a>   
+                <a href="{% url 'products' %}?category=sunglasses,belts,luxury_pens,belts" class="dropdown-item">All Accessories</a>
             </div>
+        </li>
+
+        <!-- Fragrance link -->
+        <li class="nav-item">
+            <a href="{% url 'products' %}?category=fragrance" class="logo-font font-weight-bold nav-link text-black mr-5" id="fragrance-link">Fragrance</a>
         </li>
       
         <li class="nav-item dropdown">
@@ -56,10 +64,9 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?category=new_in" class="dropdown-item">New In</a>
                 <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
                 <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
-                <a href="{% url 'products' %}?category=new_in,deals,clearance" class="dropdown-item">All Special Offers</a>
+                <a href="{% url 'products' %}?category=deals,clearance" class="dropdown-item">All Special Offers</a>
             </div>
         </li>
     </ul>
