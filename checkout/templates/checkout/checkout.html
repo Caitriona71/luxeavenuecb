@@ -27,13 +27,13 @@
 
         <div class="row">
             <div class="col-12 col-lg-6 order-lg-last mb-5">
-                <p class="text-muted"><strong>ORDER SUMMARY ({{ product_count }})</strong></p>
+                <p class="text-muted text-uppercase"><strong>Order Summary ({{ product_count }})</strong></p>
                 <div class="row">
                     <div class="col-7 offset-2">
-                        <p class="mb-1 mt-0 small text-black">ITEM</p>
+                        <p class="mb-1 mt-0 small text-black text-uppercase">Item</p>
                     </div>
                     <div class="col-3 text-right">
-                        <p class="mb-1 mt-0 small text-black">SUBTOTAL</p>
+                        <p class="mb-1 mt-0 small text-black text-uppercase">Subtotal</p>
                     </div>
                 </div>
                 {% for item in bag_items %}
@@ -61,7 +61,7 @@
                     <div class="col-7 offset-2">
                         <p class="my-0 text-muted"><strong>Order Total:</strong></p>
                         <p class="my-0 text-muted"><strong>Delivery:</strong></p>
-                        <p class="my-0"><strong>GRAND TOTAL:</strong></p>
+                        <p class="my-0 text-uppercase"><strong>Grand Total:</strong></p>
                     </div>
                     <div class="col-3">
                         <p class="my-0">€{{ total | floatformat:2 }}</p>
@@ -75,12 +75,12 @@
                 <form action="{% url 'checkout' %}" method="POST" id="payment-form">
                     {% csrf_token %}
                     <fieldset class="rounded px-3 mb-5">
-                        <legend class="fieldset-label small text-black px-2 w-auto">DETAILS</legend>
+                        <legend class="fieldset-label small text-black text-uppercase px-2 w-auto">Details</legend>
                         {{ order_form.full_name | as_crispy_field }}
                         {{ order_form.email | as_crispy_field }}
                     </fieldset>
                     <fieldset class="rounded px-3 mb-5">
-                        <legend class="fieldset-label small text-black px-2 w-auto">DELIVERY</legend>
+                        <legend class="fieldset-label small text-black text-uppercase px-2 w-auto">Delivery</legend>
                         {{ order_form.phone_number | as_crispy_field }}
                         {{ order_form.country | as_crispy_field }}
                         {{ order_form.postcode | as_crispy_field }}
@@ -101,7 +101,7 @@
 						</div>
                     </fieldset>
                     <fieldset class="px-3">
-                        <legend class="fieldset-label small text-black px-2 w-auto">PAYMENT</legend>
+                        <legend class="fieldset-label small text-black text-uppercase px-2 w-auto">Payment</legend>
                         <!-- A Stripe card element will go here -->
                         <div class="mb-3" id="card-element"></div>
 
@@ -132,6 +132,13 @@
                 </form>
             </div>
         </div>
+    </div>
+    <div id="loading-overlay">
+        <h1 class="text-light logo-font loading-spinner">
+            <span class="icon">
+                <i class="fas fa-3x fa-sync-alt fa-spin"></i>
+            </span>
+        </h1>
     </div>
 {% endblock %}
 
