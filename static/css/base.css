@@ -122,6 +122,37 @@ a.category-badge > span.badge:hover {
     color: var(--jet-light);
 }
 
+/* MailChimp */
+mc {
+    z-index: 1;
+}
+
+#mc_embed_signup form {
+    margin: 0 20px !important;
+}
+
+#mc_embed_signup {
+    background:#fff;
+    clear:left;
+}
+
+#mc-embedded-subscribe {
+    background: #e0ded5 !important;
+    border-color: #000 !important;
+    border-radius: 0;
+}
+
+.asterisk, .indicates-required {
+    color: var(--jet-light) !important;
+    font-size: .8rem !important;
+}
+
+.brandingLogo {
+    opacity: .3;
+    font-size:smaller;
+    float: right;
+}
+
 /* Arrow Up Button */
 .btt-button {
     height: 42px;

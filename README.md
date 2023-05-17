@@ -1,10 +1,156 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Caitriona71,
+# <div align="center">**Luxe Avenue**</div>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## **Project Overview**
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Luxe Avenue is a fictitious multi-brand full stack ecommerce store built using Django, Python, Javascript, HTML, CSS and Bootstrap 4. This web application is a full business to consumer (B2C) online retailer selling luxury goods. The website is deployed to Heroku, uses Amazon S3 for cloud storage and Stripe for payments.  No real orders can be processed for delivery as this project is for educational purposes only.
+
+ The site provides users with different functionalities that ease the process of purchasing a product. Users of the site can browse all products, filter products with a variety of categories and also search for specific products by keyword search. From the list of products, users can select them to display each product in detail, giving them the option to add the product to their shopping bag or return to the product list page to browse other products. Authenticated users can also checkout securely inputting their personal and payment details to purchase a product and also store these details on their profile for easier future purchases. On the other hand, the site provides the store owner with functionalities such as product management (add, edit & delete products) without accessing the admin interface.
+
+ This website application includes CRUD functionality, user authentication (using Django's allauth library), email validation and database interaction.
+
+ # **Table of Contents**
+
+[UX](#ux)
+
+   1. [Strategy](#strategy)
+   * [Project Goals](#project-goals)
+   * [User Stories](#user-stories)
+   2. [Scope](#scope)
+   * [Features](#features)
+   * [Future Features](#future-features)
+
+## **UX**
+
+## 1. Strategy
+
+### **Project Goals**
+
+- To provide a B2C ecommerce site selling luxury goods to customers.
+- To provide users with different functionalities such as user authentication, product purchase, profile, sign-up for newsletter, store locator.
+- To provide the store owner the ability to manage the site to update products and information.
+
+### **User Stories**
+
+***Epic 1: Basic Setup of Shop and Products***
+
+| ID | User Story                                                                                          |
+|----|-----------------------------------------------------------------------------------------------------|
+| 1  | As a **developer** I can set up the project so that it is ready for implementing core features      |
+| 2  | As a **developer** I can create a base HTML template page so that all pages can use the same format |
+| 3  | As a **developer** I can setup the project basic apps so that the products can be displayed         |
+
+***Epic 2: Admin/Shop Owner***
+| ID  | User Story                                                                                                                                                                 |   |
+|-----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|
+| 4   | As a **shop owner** I can log in so that I have full access to the store administration page                                                                              |   |
+| 5   | As a **shop owner** I can add products to the shop so that there is a good variety of products available                                                                  |   |
+| 6   | As a **shop owner** I can edit/delete a category so that the website is up to date at all times                                                                           |   |
+| 7   | As a **shop owner** I can edit/update product information so that the product description and price is up to date                                                         |   |
+| 8   | As a **shop owner** I can delete products so that I can remove products that are no longer available                                                                      |   |
+| 9   | As a **shop owner** I can add a new category to the shop so that there is a better selection of products available                                                        |   |
+| 10  | As a **shop owner** I can send a newsletter to registered shoppers via email so that they are kept up to date about promotions, special offers and new products available |   |
+| 11  | As a **shop owner** I can unsubscribe those shoppers who request to unsubscribe from the newsletter so that they don't continue to receive the newsletter                  |   |
+| 12  | As a **shop owner** I can add a store finder so that customers can see a list of the shops branches and locate one nearest to them                                        |   |
+| 13  | As a **shop owner** I can display the privacy policy page on the site so that I can maintain privacy compliance and build user trust                                      |   |
+| 14  | As a **shop owner** I can create a sitemap xml and a robots.txt file so that search engines can find and index the new or updated website faster                          |   |
+
+
+***Epic 3: Viewing and Navigation***
+| ID | User Story                                                                                                                       |
+|----|----------------------------------------------------------------------------------------------------------------------------------|
+| 15 | As a **customer** I can browse the website and easily  navigate throughout the site so that I can view the contents              |
+| 16 | As a **customer** I can view a list of products so that I can select some to purchase                                            |
+| 17 | As a **customer** I can view individual product details so that I can see the product price description and image                |
+| 18 | As a **customer** I can search for products by category or using the search bar so that I can easily find what I am looking for  |
+| 19 | As a **customer** I can easily view the total of my purchases so that I can keep track of my spending                            |
+| 20 | As a **customer** I can add multiple items to my shopping bag so that I can buy multiple items in the same transaction           |
+| 21 | As a **customer** I can make purchases as a guest so that I can place my order quickly without having to register for an account |
+| 22 | As a **customer** I can subscribe to the shops newsletter so that I can find out about new products and promotions               |
+| 23 | As a **customer** I can unsubscribe from the shops newsletter so that I don't have to receive newsletters anymore                 |
+| 24 | As a **customer** I can see a list of store branches so that I can find the closest one to me                                    |                                                        |
+
+***Epic 4: Registration and Accounts***
+| ID | User Story                                                                                                                                                         |                                                    |
+|----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+| 25 | As a **customer** I can choose to register for an account so that I can use features for logged in users                                                           |                                                    |
+| 26 | As a **registered customer** I can easily log in to and out of my account so that I can access my account information                                              |                                                    |
+| 27 | As a **registered customer** I can easily reset my password if I forget it so that I can regain access to my account                                               |                                                    |
+| 28 | As a **registered customer** I can receive an email confirmation after registering for an account so that I can verify that my account registration was successful |                                                    |
+| 29 | As a **registered customer** I can easily register for an account so that I can view my profile                                                                    |                                                    |
+| 30 | As a **registered customer** I can have a personalized profile so that I can see my order history,  order confirmation and save my payment information |
+| 31 | As a **customer** I can connect to the shops social media sites so that I can keep up to date with their products, promotions and offers                              |
+
+***Epic 5: Searching and Filtering***
+| ID | User Story                                                                                                                                                       |
+|----|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 32 | As a **customer** I can filter a specific category of products so that I can sort the products in that category by name                                          |
+| 33 | As a **customer** I can sort the list of available products so that I can view products by best priced,name and category alphabetically ascending and descending |
+| 34 | As a **customer** I can search for a product by name so that I can find the particular product I would like to buy                                               |
+
+***Epic 6: Purchasing and Payment***
+
+| ID | User Story                                                                                                                                        |
+|----|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| 35 | As a **customer** I can add more products of the same kind to my shopping bag so that I can purchase the correct quantity of the item that I need |
+| 36 | As a **customer** I can remove items from my shopping bag so that I am not purchasing what I dont need                                            |
+| 37 | As a **customer** I can see items in my shopping bag so that I can keep track on what I am spending                                               |
+| 38 | As a **customer** I can enter my personal information and credit/debit card details so that I can complete  the purchasing process                |
+| 39 | As a **customer** I can view an order confirmation of my purchases so that I have a record of what I bought                                       |
+
+***Epic 7: Digital Marketing***
+| ID | User Story                                                                                              |
+|----|---------------------------------------------------------------------------------------------------------|
+| 40 | As a **shop owner** I can create a facebook business page so that I can increase traffic to my website |
+
+## 2. Scope
+
+### **Features**
+
+#### ***Navigation Bar***
+The main navigation bar appears on every page of the website so customers can easily navigate throughout the site. It is located at the top of the webpage and has different functionalities. It has links for all products, products new in, jewellery, bags, accessories, fragrance and special offers. Most of these links has dropdown links for different products and offers. The new in and fragrance links just redirect the customer to those pages.  
+
+The shop name is on the left and when clicked on any page returns the customer to the main page. The search bar is in the middle and to the right the user account dropdown menu and the shopping bag icon. When a registered customer is logged in their profile link appears in the dropdown menu and a logout link. When the shop owner/admin is logged in the product management link is visible.
+
+Below the product search bar, there are individual navigation links that allow the user to browse through the products via different filters. On smaller viewports, a hamburger menu is present to keep the look of the navbar refined and clean.
+
+#### ***Footer***
+
+The footer appears on every page of the site and displays links social links, privacy policy and a newsletter signup form.
+
+#### ***Home Page***
+
+The home page features a hero image with a transbox and a message to the customer inviting them to "Step Into Spring" and a "Shop the latest" button to encourage them to explore the products available in the shop.
+
+#### ***Products List Page***
+
+The products list page shows all the stock the shop has available for sale. Each product displays an image of the product, the name, price and category tag of the product. Each product can be clicked on to view the product in detail on another page. Products can also be filtered via different categories; by price high to low or vice versa, by name and category alphabetically in ascending or descending order.
+
+#### ***Product Detail Page***
+
+The product detail page displays all the information about the selected product including the name of the product, the price, category and product description. If the customer decides to purchase the item they can add it to their shopping bag and also select the quantity of the item they wish to purchase to their shopping bag for checkout. A success message is displayed on the screen when products are added.
+
+#### ***Shopping Bag Page***
+
+Once the customer is happy with their selection, they can advance to the shopping bag page to confirm the items selected, quantity and prices. Customers can also add or remove items from their shopping bag whilst on this page to update the quantity before checkout.
+
+#### ***Checkout Page***
+
+When the customer is ready to proceed to the checkout page after selecting their choice of products, they are required to fill out a form detailing their personal information: name, email address, phone number, street address, town/city, county, postal code and country. They are also required to fill out payment information which is powered by Stripe: credit card number. expiry date and CVC. As Stripe is not fully activated in this project, only test payment details can be used to process payments. Customers also have the option to save their personal information to their profile so future checkouts are easier instead of having to fill out the form each time they place an order. The order summary is displayed next to the order form so that it is clear to the customer the selection of products they are ordering. If the checkout was successful the customer is taken to the order confirmation page.
+
+#### ***Order Confirmation Page***
+
+The order confirmation page displays the customer's order number, order details, delivery details and billing information. A success message appears informing the customer that their order has been processed, confirmation of their order number and telling them that an order confirmation email will be sent to them. At the bottom of this page there is a button inviting the customer to browse special offers to encourage them not to leave the site immediately.
+
+#### ***Customer Profile Page***
+
+sdskdjsldskjd
+
+### **Future Features**
+
+
+ou can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
 ## Gitpod Reminders
 
