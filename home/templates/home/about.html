@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <!-- Check this for loop and how you access the objects data -->
+            <div class="row">
+                <!-- About page heading -->
+                <h2 class="text-center blog-heading">About Us</h2><br>
+                    {% for staff_member in staff_members %}
+                    <div class="col-md-4">
+                        <div class="card-mb-4"> 
+                            <div class="card-body"> 
+                                <h4 class="members-name"><strong>{{member.name}}</strong></h4>
+                                <div class="image-container">
+                                    <img class="members-photo card-img-top" src="{{ member.photo.url }}">
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    </div>
+                    <div class="row">
+                    <div class="members-bio">{{members.bio|safe}}</div>
+                    </div>
+                    {% endfor %}
+    
+    {%endblock%}
+    
+
+
+{% endfor %}

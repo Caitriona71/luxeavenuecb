@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+
+<h2>Job Postings</h2>
+{% for job_posting in job_postings %}
+
+    <h3>{{ job_posting.job_title }} </h3>
+    <div class="job-dates">
+        <span>{{ job_posting.posted_date }}</span> ǀ <span>{{ job_posting.last_edit_date }}</span>
+    </div>
+        <p>{{ job_posting.job_description }}</p>
+        <p>{{ job_posting.key_requirements }}</p>
+
+{% endfor %}
+
+{% endblock %}
+
+
+

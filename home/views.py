@@ -17,7 +17,7 @@ def about_us(request):
         'staff_members': staff_members,
         'store_locations': store_locations
     }
-    return render(request, 'about_us.html, context')
+    return render(request, 'about.html', context)
 
 
 def job_postings(request):
@@ -26,4 +26,4 @@ def job_postings(request):
     context = {
         'job_postings': job_postings,
     }
-    return render(request, 'job_postings.html', context)
+    return render(request, 'job-postings.html', context)
