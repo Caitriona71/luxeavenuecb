@@ -115,6 +115,10 @@ The shop name is on the left and when clicked on any page returns the customer t
 
 Below the product search bar, there are individual navigation links that allow the user to browse through the products via different filters. On smaller viewports, a hamburger menu is present to keep the look of the navbar refined and clean.
 
+#### ***Banner***
+
+The banner area is being used to flag the free delivery threshold.
+
 #### ***Footer***
 
 The footer appears on every page of the site and displays links social links, privacy policy and a newsletter signup form.
@@ -145,10 +149,22 @@ The order confirmation page displays the customer's order number, order details,
 
 #### ***Customer Profile Page***
 
-sdskdjsldskjd
+Registered customers can view their profile page which lists their saved personal information which can be used for future purchases and also a history of the orders they have placed with their respective order numbers. The customer can click on the order numbers to view the order details.
+
+#### ***Product Management Page***
+
+The shop owner can perform the full CRUD (create, read, update and delete) product management operations directly on the front end, when they are logged in.  When the Product Management link is clicked this takes the shop owner to the product management page where they can easily add a new product to the store.
+
+To edit a product, the shop owner only needs to go to the product detail page where underneath the product image is the edit product button. Clicking this button will open the product management page - edit product where the form fields are already pre-populated with the available data about the product. A toast also shows an alert that the product is being edited.
+
+To delete a product, next to the edit a product button is the Delete Product button that when clicked opens a modal to confirm the intent of deleting a product to avoid the unintended deletion of data. 
 
 ### **Future Features**
 
+- A brands category displayed under the All Products dropdown menu on the navigation bar to display the brands available in the shop.
+- A Brand Management link on the My Account dropdown menu so the shop owner can add a new brand or update an existing one at the front end. This link would redirect the shop owner to the brand management page where they can easily add a new brand.
+- A contact form accessed from a link in the navigation bar, so customers can fill out the form and submit it if they have a query.
+- A digital gift card product.
 
 ou can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
