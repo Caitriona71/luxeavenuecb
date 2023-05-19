@@ -20,6 +20,10 @@ Luxe Avenue is a fictitious multi-brand full stack ecommerce store built using D
    2. [Scope](#scope)
    * [Features](#features)
    * [Future Features](#future-features)
+   3. [Structure](#structure)
+
+   4. [Skeleton](#skeleton)
+   * [Home Page(Desktop)](https://github.com/)
 
 ## **UX**
 
@@ -165,6 +169,9 @@ To delete a product, next to the edit a product button is the Delete Product but
 - A Brand Management link on the My Account dropdown menu so the shop owner can add a new brand or update an existing one at the front end. This link would redirect the shop owner to the brand management page where they can easily add a new brand.
 - A contact form accessed from a link in the navigation bar, so customers can fill out the form and submit it if they have a query.
 - A digital gift card product.
+
+
+- [Home Page(Desktop)](https://github.com/)
 
 ou can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
