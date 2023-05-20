@@ -172,13 +172,31 @@ To delete a product, next to the edit a product button is the Delete Product but
 
 ## 3. Structure
 
-As this project utilises Django which is a Model, View & Template framework, a connection to database tabl models is required. An entity relationship diagram was created to visually map out the structure of the databases and models. The ERD was created on an excel spreadsheet.
+### **Code Structure**
+
+Code is built using applications in Django.  The applications used are listed below:
+
+#### ***Apps***
+
+- bag - functionality for managing the shopping bag.
+- products - functionality for managing the products available for customers to purchase in the ecommerce shop.
+- profiles - functionality for managing user profiles.
+- checkout - functionality for managing the e-commerce transactions for the site with real-life email confirmations.
+-  home - functionality for managing the home page as well as separate job postings and about us pages.
+
+### **Database Models**
+
+As this project utilises Django which is a Model, View & Template framework, a connection to database table models is required. An entity relationship diagram was created to visually map out the structure of the databases and models. The ERD was created on an excel spreadsheet.
+
+#### ***ERD Diagram***
 
 [Database Models ERD](./readme-docs/database-models/luxeavenue-erd.png)
 
 ## 4. Skeleton
 
 ### **Wireframes**
+
+Low fidelity wireframes were designed using Powerpoint. Minor changes were applied since drafting the wireframes in the beginning of the project e.g. a bag app was created instead of a basket app as a shopping bag was more suitable for the ecommerce site design. The general layout and structure of the main content for each page of the website on desktop and mobile are captured in the wireframes which can be viewed below. 
 
 #### ***Desktop***
 
@@ -210,6 +228,26 @@ As this project utilises Django which is a Model, View & Template framework, a c
 22. [Reset Password Page](./readme-docs/wireframes/mobile/reset-password.png)
 23. [Profile Page](./readme-docs/wireframes/mobile/profile-page.png)
 24. [Product Management Page](./readme-docs/wireframes/mobile/product-management.png)
+
+## 5. Surface
+
+### **Colour Scheme**
+
+The colour scheme was inspired by the hero image on the home page. The palette below was taken from Coolers.
+
+[Colors](./readme-docs/color-palette/coolers-colour-palette.png)
+
+### **Typography**
+
+The font used is DM Serif Display. This font was chosen because the style suits the design of the website. It has a classic look and it is clear and easy to read.
+
+### **Images**
+
+* [Kaggle](https://www.kaggle.com/)
+* [Pixabay](https://www.pixabay.com/)
+* [Freepik](https://www.freepik.com/)
+
+### **Web Marketing**
 
 ou can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
