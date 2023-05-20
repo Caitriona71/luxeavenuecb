@@ -170,8 +170,46 @@ To delete a product, next to the edit a product button is the Delete Product but
 - A contact form accessed from a link in the navigation bar, so customers can fill out the form and submit it if they have a query.
 - A digital gift card product.
 
+## 3. Structure
 
+As this project utilises Django which is a Model, View & Template framework, a connection to database tabl models is required. An entity relationship diagram was created to visually map out the structure of the databases and models. The ERD was created on an excel spreadsheet.
+
+[Database Models ERD](./readme-docs/database-models/luxeavenue-erd.png)
+
+## 4. Skeleton
+
+### **Wireframes**
+
+#### ***Desktop***
+
+1. [Home Page](./readme-docs/wireframes/desktop/home-page.png)
+2. [Products List Page](./readme-docs/wireframes/desktop/products-list.png)
+3. [Product Detail Page](./readme-docs/wireframes/desktop/product-detail.png)
+4. [Add to Bag Page](./readme-docs/wireframes/desktop/add-to-bag.png)
+5. [Shopping Bag Page](./readme-docs/wireframes/desktop/shopping-bag.png)
+6. [Payment Page](./readme-docs/wireframes/desktop/payment-page.png)
+7. [Sign Up Page](./readme-docs/wireframes/desktop/register.png)
+8. [Sign In Page](./readme-docs/wireframes/desktop/sign-in-page.png)
+9. [Sign Out Page](./readme-docs/wireframes/desktop/sign-out-page.png)
+10. [Reset Password Page](./readme-docs/wireframes/desktop/reset-password.png)
+11. [Profile Page](./readme-docs/wireframes/desktop/profile-page.png)
+12. [Product Management Page](./readme-docs/wireframes/desktop/product-management.png)
 - [Home Page(Desktop)](https://github.com/)
+
+#### ***Mobile***
+
+13. [Home Page](./readme-docs/wireframes/mobile/home-page.png)
+14. [Products List Page](./readme-docs/wireframes/mobile/products-list.png)
+15. [Product Detail Page](./readme-docs/wireframes/mobile/product-detail.png)
+16. [Add to Bag Page](./readme-docs/wireframes/mobile/add-to-bag.png)
+17. [Shopping Bag Page](./readme-docs/wireframes/mobile/shopping-bag.png)
+18. [Payment Page](./readme-docs/wireframes/mobile/payment-page.png)
+19. [Sign Up Page](./readme-docs/wireframes/mobile/register.png)
+20. [Sign In Page](./readme-docs/wireframes/mobile/sign-in-page.png)
+21. [Sign Out Page](./readme-docs/wireframes/mobile/sign-out-page.png)
+22. [Reset Password Page](./readme-docs/wireframes/mobile/reset-password.png)
+23. [Profile Page](./readme-docs/wireframes/mobile/profile-page.png)
+24. [Product Management Page](./readme-docs/wireframes/mobile/product-management.png)
 
 ou can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
