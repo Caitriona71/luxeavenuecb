@@ -167,6 +167,7 @@ To delete a product, next to the edit a product button is the Delete Product but
 
 - A brands category displayed under the All Products dropdown menu on the navigation bar to display the brands available in the shop.
 - A Brand Management link on the My Account dropdown menu so the shop owner can add a new brand or update an existing one at the front end. This link would redirect the shop owner to the brand management page where they can easily add a new brand.
+- Add filter by brand name.
 - A contact form accessed from a link in the navigation bar, so customers can fill out the form and submit it if they have a query.
 - A digital gift card product.
 
@@ -190,7 +191,7 @@ As this project utilises Django which is a Model, View & Template framework, a c
 
 #### ***ERD Diagram***
 
-[Database Models ERD](./readme-docs/database-models/luxeavenue-erd.png)
+![Database Models ERD](./readme-docs/database-models/luxeavenue-erd.png)
 
 ## 4. Skeleton
 
@@ -235,7 +236,7 @@ Low fidelity wireframes were designed using Powerpoint. Minor changes were appli
 
 The colour scheme was inspired by the hero image on the home page. The palette below was taken from Coolers.
 
-[Colors](./readme-docs/color-palette/coolers-colour-palette.png)
+![Colors](./readme-docs/colour-palette/coolers-colour-palette.png)
 
 ### **Typography**
 
@@ -248,6 +249,10 @@ The font used is DM Serif Display. This font was chosen because the style suits 
 * [Freepik](https://www.freepik.com/)
 
 ### **Web Marketing**
+
+For the purposes of digital marketing, a requirement of the ecommerce project was to create a facebook page to promote the business. Facebook is a key marketing strategy for the success of an ecommerce business. See Facebook page screenshot below:
+
+![Luxe Avenue Facebook Page](./readme-docs/facebook-page/luxeavenuefacebook.png)
 
 ou can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
