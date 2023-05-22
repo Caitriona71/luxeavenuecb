@@ -302,10 +302,49 @@ For the purposes of digital marketing, a requirement of the ecommerce project wa
 - **Stripe:** was used to process payments
 - **Font Awesome:** for the icons used for the project
 - **Google Fonts:** for selecting the font used for the project
+- **Coolers:** for generating a colour palette for website colour scheme
 - **RandomKeygen:** was used to generate secret key
+- **Convertio:** used to convert images from png to webp format
+- **Table-magic** used to build tables in markdown
 - **Facebook:** used to create the Luxe Avenue facebook page
 - **Mailchimp:** was used to implement email newsletter sign up form
 - **Am I Responsive:** to check for responsiveness and to create images of the website on different screen sizes
+
+### **Testing**
+
+The W3C Markup Validator, W3C CSS Validator Services, JS Hint and PEP8 were used to validate the code to ensure there were no syntax errors in the project.
+
+### **HTML**
+All HTML pages were checked using [W3CMarkupValidationService](http://)
+- No errors were found.
+
+### **CSS**
+The CSS file was checked using [W3CCSSValidationService](http://)
+- No errors were found.
+
+### **Python**
+The following python files were checked using [pep8CI](https://pep8ci.herokuapp.com/). No errors found apart from some lines too long in settings.py, env.py and **???????** files.:<br>
+- admin.py<br>
+- apps.py<br>
+- asgi.py<br>
+- env.py<br>
+- forms.py<br>
+- models.py<br>
+- settings.py<br>
+- tests.py<br>
+- urls.py<br>
+- views.py<br>
+- wsgi.py<br>
+
+### **Javascript**
+The Javascript file was checked using [JSHint]()
+- No errors were found.
+
+## **Code Formatting**
+HTML formatted using [HTML Formatter](https://webformatter.com)<br><br>
+
+## **Manual Testing**
+
 - **W3C Markup Validator:** to validate the HTML code
 - **W3C CSS Validator:** to validate the CSS code
 
