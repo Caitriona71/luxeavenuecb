@@ -21,9 +21,19 @@ Luxe Avenue is a fictitious multi-brand full stack ecommerce store built using D
    * [Features](#features)
    * [Future Features](#future-features)
    3. [Structure](#structure)
-
+   * [Code Structure](#code-structure)
+   * [Database Models](#database-models)
    4. [Skeleton](#skeleton)
+   * [Wireframes](#wireframes)
    * [Home Page(Desktop)](https://github.com/)
+   5. [Surface](#surface)
+   * [Colour Scheme](#colour-scheme)
+   * [Typography](#typography)
+   * [Media](#media)
+
+   [Web Marketing](#web-marketing)
+
+   [Technologies Used](#technologies-used)
 
 ## **UX**
 
@@ -242,17 +252,63 @@ The colour scheme was inspired by the hero image on the home page. The palette b
 
 The font used is DM Serif Display. This font was chosen because the style suits the design of the website. It has a classic look and it is clear and easy to read.
 
-### **Images**
+![Font](./readme-docs/typography/luxeavenue-logo.png)
+
+### **Media**
+
+All images were taken from:
 
 * [Kaggle](https://www.kaggle.com/)
 * [Pixabay](https://www.pixabay.com/)
 * [Freepik](https://www.freepik.com/)
 
-### **Web Marketing**
+## Search Engine Optimisation
+
+ A set of keywords for search engines were used for helping potential users find the webpage. The aim is to select keywords with relatively high volume of searches and low competition in search results. Keywords were implemented in images alt text and meta tags in base.html.
+
+A sitemap.xml and robots.txt file have been created to help aid search engines locate the site.
+
+## Web Marketing
 
 For the purposes of digital marketing, a requirement of the ecommerce project was to create a facebook page to promote the business. Facebook is a key marketing strategy for the success of an ecommerce business. See Facebook page screenshot below:
 
 ![Luxe Avenue Facebook Page](./readme-docs/facebook-page/luxeavenuefacebook.png)
+
+## Technologies Used
+
+### **Languages** 
+
+- **HTML5**
+- **CSS3**
+- **Javascript**
+- **Python**<br><br>
+
+### **Hosting**
+
+- **Heroku** - used to deploy the project
+- **Gunicorn** - a pure-Python HTTP server for WSGI applications
+- **ElephantSQL** - used as the database for the project during development
+- **AWS** - S3 bucket storage for storing static files and media files
+
+### **Frameworks, Libraries and Tools** 
+
+- **Github:**  Version control - stores the repository of the project, git issues were used for User Stories,
+  git project was used kanban board milestones
+- **Gitpod:**  IDE workspace to write code and push to github
+- **Bootstrap4:** was imported for responsiveness and styling of the site
+- **Django:** was the web framework used to build the project
+- **Django AllAuth:** to enable users to create accounts and log in. Allauth is a third-party Django application.
+- **Crispy Forms:** used to give forms improved styling
+- **Stripe:** was used to process payments
+- **Font Awesome:** for the icons used for the project
+- **Google Fonts:** for selecting the font used for the project
+- **RandomKeygen:** was used to generate secret key
+- **Facebook:** used to create the Luxe Avenue facebook page
+- **Mailchimp:** was used to implement email newsletter sign up form
+- **Am I Responsive:** to check for responsiveness and to create images of the website on different screen sizes
+- **W3C Markup Validator:** to validate the HTML code
+- **W3C CSS Validator:** to validate the CSS code
+
 
 ou can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
