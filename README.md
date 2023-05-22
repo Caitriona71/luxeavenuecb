@@ -43,7 +43,7 @@ Luxe Avenue is a fictitious multi-brand full stack ecommerce store built using D
 
 - To provide a B2C ecommerce site selling luxury goods to customers.
 - To provide users with different functionalities such as user authentication, product purchase, profile, sign-up for newsletter, store locator.
-- To provide the store owner the ability to manage the site to update products and information.
+- To provide the store owner the ability to manage the site to update products and information.<br><br>
 
 ### **User Stories**
 
@@ -69,7 +69,6 @@ Luxe Avenue is a fictitious multi-brand full stack ecommerce store built using D
 | 12  | As a **shop owner** I can add a store finder so that customers can see a list of the shops branches and locate one nearest to them                                        |   |
 | 13  | As a **shop owner** I can display the privacy policy page on the site so that I can maintain privacy compliance and build user trust                                      |   |
 | 14  | As a **shop owner** I can create a sitemap xml and a robots.txt file so that search engines can find and index the new or updated website faster                          |   |
-
 
 ***Epic 3: Viewing and Navigation***
 | ID | User Story                                                                                                                       |
@@ -116,7 +115,7 @@ Luxe Avenue is a fictitious multi-brand full stack ecommerce store built using D
 ***Epic 7: Digital Marketing***
 | ID | User Story                                                                                              |
 |----|---------------------------------------------------------------------------------------------------------|
-| 40 | As a **shop owner** I can create a facebook business page so that I can increase traffic to my website |
+| 40 | As a **shop owner** I can create a facebook business page so that I can increase traffic to my website |<br><br>
 
 ## 2. Scope
 
@@ -179,7 +178,7 @@ To delete a product, next to the edit a product button is the Delete Product but
 - A Brand Management link on the My Account dropdown menu so the shop owner can add a new brand or update an existing one at the front end. This link would redirect the shop owner to the brand management page where they can easily add a new brand.
 - Add filter by brand name.
 - A contact form accessed from a link in the navigation bar, so customers can fill out the form and submit it if they have a query.
-- A digital gift card product.
+- A digital gift card product.<br><br>
 
 ## 3. Structure
 
@@ -193,7 +192,7 @@ Code is built using applications in Django.  The applications used are listed be
 - products - functionality for managing the products available for customers to purchase in the ecommerce shop.
 - profiles - functionality for managing user profiles.
 - checkout - functionality for managing the e-commerce transactions for the site with real-life email confirmations.
--  home - functionality for managing the home page as well as separate job postings and about us pages.
+-  home - functionality for managing the home page as well as separate job postings and about us pages.<br><br>
 
 ### **Database Models**
 
@@ -201,7 +200,7 @@ As this project utilises Django which is a Model, View & Template framework, a c
 
 #### ***ERD Diagram***
 
-![Database Models ERD](./readme-docs/database-models/luxeavenue-erd.png)
+![Database Models ERD](./readme-docs/database-models/luxeavenue-erd.png)<br><br>
 
 ## 4. Skeleton
 
@@ -238,7 +237,7 @@ Low fidelity wireframes were designed using Powerpoint. Minor changes were appli
 21. [Sign Out Page](./readme-docs/wireframes/mobile/sign-out-page.png)
 22. [Reset Password Page](./readme-docs/wireframes/mobile/reset-password.png)
 23. [Profile Page](./readme-docs/wireframes/mobile/profile-page.png)
-24. [Product Management Page](./readme-docs/wireframes/mobile/product-management.png)
+24. [Product Management Page](./readme-docs/wireframes/mobile/product-management.png)<br><br>
 
 ## 5. Surface
 
@@ -246,13 +245,13 @@ Low fidelity wireframes were designed using Powerpoint. Minor changes were appli
 
 The colour scheme was inspired by the hero image on the home page. The palette below was taken from Coolers.
 
-![Colors](./readme-docs/colour-palette/coolers-colour-palette.png)
+![Colors](./readme-docs/colour-palette/coolers-colour-palette.png)<br><br>
 
 ### **Typography**
 
 The font used is DM Serif Display. This font was chosen because the style suits the design of the website. It has a classic look and it is clear and easy to read.
 
-![Font](./readme-docs/typography/luxeavenue-logo.png)
+![Font](./readme-docs/typography/luxeavenue-logo.png)<br><br>
 
 ### **Media**
 
@@ -260,40 +259,40 @@ All images were taken from:
 
 * [Kaggle](https://www.kaggle.com/)
 * [Pixabay](https://www.pixabay.com/)
-* [Freepik](https://www.freepik.com/)
+* [Freepik](https://www.freepik.com/)<br><br>
 
 ## Search Engine Optimisation
 
  A set of keywords for search engines were used for helping potential users find the webpage. The aim is to select keywords with relatively high volume of searches and low competition in search results. Keywords were implemented in images alt text and meta tags in base.html.
 
-A sitemap.xml and robots.txt file have been created to help aid search engines locate the site.
+A sitemap.xml and robots.txt file have been created to help aid search engines locate the site.<br><br>
 
 ## Web Marketing
 
 For the purposes of digital marketing, a requirement of the ecommerce project was to create a facebook page to promote the business. Facebook is a key marketing strategy for the success of an ecommerce business. See Facebook page screenshot below:
 
-![Luxe Avenue Facebook Page](./readme-docs/facebook-page/luxeavenuefacebook.png)
+![Luxe Avenue Facebook Page](./readme-docs/facebook-page/luxeavenuefacebook.png)<br><br>
 
 ## Technologies Used
 
-### **Languages** 
+### ***Languages*** 
 
 - **HTML5**
 - **CSS3**
 - **Javascript**
 - **Python**<br><br>
 
-### **Hosting**
+### ***Hosting***
 
 - **Heroku** - used to deploy the project
 - **Gunicorn** - a pure-Python HTTP server for WSGI applications
 - **ElephantSQL** - used as the database for the project during development
-- **AWS** - S3 bucket storage for storing static files and media files
+- **AWS** - S3 bucket storage for storing static files and media files<br><br>
 
-### **Frameworks, Libraries and Tools** 
+### ***Frameworks, Libraries and Tools*** 
 
 - **Github:**  Version control - stores the repository of the project, git issues were used for User Stories,
-  git project was used kanban board milestones
+  git project was used for kanban board milestones
 - **Gitpod:**  IDE workspace to write code and push to github
 - **Bootstrap4:** was imported for responsiveness and styling of the site
 - **Django:** was the web framework used to build the project
@@ -308,9 +307,9 @@ For the purposes of digital marketing, a requirement of the ecommerce project wa
 - **Table-magic** used to build tables in markdown
 - **Facebook:** used to create the Luxe Avenue facebook page
 - **Mailchimp:** was used to implement email newsletter sign up form
-- **Am I Responsive:** to check for responsiveness and to create images of the website on different screen sizes
+- **Am I Responsive:** to check for responsiveness and to create images of the website on different screen sizes<br><br>
 
-### **Testing**
+## Testing
 
 The W3C Markup Validator, W3C CSS Validator Services, JS Hint and PEP8 were used to validate the code to ensure there were no syntax errors in the project.
 
@@ -338,15 +337,11 @@ The following python files were checked using [pep8CI](https://pep8ci.herokuapp.
 
 ### **Javascript**
 The Javascript file was checked using [JSHint]()
-- No errors were found.
+- No errors were found.<br><br>
 
 ## **Code Formatting**
 HTML formatted using [HTML Formatter](https://webformatter.com)<br><br>
 
-## **Manual Testing**
-
-- **W3C Markup Validator:** to validate the HTML code
-- **W3C CSS Validator:** to validate the CSS code
 
 
 ou can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**

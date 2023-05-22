@@ -133,13 +133,16 @@ mc {
 
 #mc_embed_signup {
     background:#fff;
-    clear:left;
+    clear: left;
+    width: 600px;
 }
 
 #mc-embedded-subscribe {
     background: #e0ded5 !important;
+    color:#000 !important;
     border-color: #000 !important;
-    border-radius: 0;
+    border: 1px solid #000 !important;
+    border-radius: 0 !important;
 }
 
 .asterisk, .indicates-required {
@@ -148,7 +151,7 @@ mc {
 }
 
 .brandingLogo {
-    opacity: .3;
+    opacity: .5;
     font-size:smaller;
     float: right;
 }

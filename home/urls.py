@@ -5,4 +5,3 @@ urlpatterns = [
     path('', views.index, name='home'),
     path('job-postings/', views.job_postings, name='job-postings'),
 ]
-

@@ -10,30 +10,24 @@
 {% endblock %}
 
 {% block content %}
-<div class="container-fluid">
-    <!-- Check this for loop and how you access the objects data -->
-            <div class="row">
-                <!-- About page heading -->
-                <h2 class="text-center blog-heading">About Us</h2><br>
-                    {% for staff_member in staff_members %}
-                    <div class="col-md-4">
-                        <div class="card-mb-4"> 
-                            <div class="card-body"> 
-                                <h4 class="members-name"><strong>{{member.name}}</strong></h4>
-                                <div class="image-container">
-                                    <img class="members-photo card-img-top" src="{{ member.photo.url }}">
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                    </div>
-                    <div class="row">
-                    <div class="members-bio">{{members.bio|safe}}</div>
-                    </div>
-                    {% endfor %}
-    
-    {%endblock%}
-    
 
+<h2>Our Staff</h2><br>
+{% for staff_member in staff_members %}
+    <img src="{{ staff_member.photo.url }}" alt="{{ staff_member.name }}">
+    <h3>{{ staff_member.name }}</h3>
+    <h4>{{ staff_member.job_title }}</h4>
+    <p>{{ staff_member.bio }}</p>
 
 {% endfor %}
+
+<h2>Our Stores</h2>
+{% for store_location in store_locations %}
+
+    <img src="{{ store_location.photo.url }}" alt="{{ store_location.name }}">
+    <h3>{{ store_location.name }}</h3>
+    <p>{{ store_location.address }}</p>
+    <p>{{ store_location.phone }}</p>
+
+{% endfor %}   
+    
+{%endblock%}
