@@ -10,16 +10,19 @@
 {% endblock %}
 
 {% block content %}
-
-<h2>Job Postings</h2>
+<div class="overlay"></div>
+<h2 class="text-center heading"><strong>Careers</strong></h2><br>
 {% for job_posting in job_postings %}
-
-    <h3>{{ job_posting.job_title }}</h3>
+    <h3 class="text"><strong>{{ job_posting.job_title }}</strong></h3>
     <div class="job-dates">
-        <span>{{ job_posting.posted_date }}</span> ǀ <span>{{ job_posting.last_edit_date }}</span>
+        <span class="text">{{ job_posting.posted_date }}</span> ǀ <span>{{ job_posting.last_edit_date }}</span>
     </div>
-        <p>{{ job_posting.job_description }}</p>
-        <p>{{ job_posting.key_requirements }}</p>
+        <p class="text"><strong>The Role:</strong><br>
+            {{ job_posting.job_description }}
+        </p>
+        <p class="text"><strong>The Ideal Candidate:</strong><br>
+            {{ job_posting.key_requirements }}
+        </p>
 
 {% endfor %}
 

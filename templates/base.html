@@ -121,16 +121,16 @@
                 
                             <!-- About Us Menu -->
                             <li class="list-inline-item dropdown">
-                                <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a class="text-black nav-link" href="{% url 'home' %}" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <div class="text-center">
                                         <div><i class="fa-solid fa-people-roof fa-xl"></i></div>
                                         <p class="my-0">About Us</p>
                                     </div>
                                 </a>
                                 <div class="dropdown-menu border-0" aria-labelledby="user-options">
-                                        <a href="" class="dropdown-item">Our Team</a>
-                                        <a href="" class="dropdown-item">Store Finder</a>
-                                        <a href="" class="dropdown-item">Careers</a>
+                                        <a href="{% url 'about' %}" class="dropdown-item">Our Team</a>
+                                        <a href="{% url 'about' %}" class="dropdown-item">Store Finder</a>
+                                        <a href="{% url 'job-postings' %}" class="dropdown-item">Careers</a>
                                 </div>
                              </li>   
                         </ul>

@@ -100,6 +100,13 @@ div.transbox h1 {
 	z-index: -1;
 }
 
+.text {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+    position: relative;
+}
+
 a.category-badge > span.badge {
     background: #e0ded5 !important;
     color: #000 !important;

@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import JobPosting
+from .models import JobPosting, StaffMember, StoreLocation
 
 # Create your views here.
 
@@ -18,7 +18,7 @@ def about_us(request):
         'staff_members': staff_members,
         'store_locations': store_locations
     }
-    return render(request, 'about.html', context)
+    return render(request, 'home/about.html', context)
 
 
 def job_postings(request):
@@ -27,4 +27,4 @@ def job_postings(request):
     context = {
         'job_postings': job_postings,
     }
-    return render(request, 'job-postings.html', context)
+    return render(request, 'home/job-postings.html', context)
