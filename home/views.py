@@ -21,6 +21,15 @@ def about_us(request):
     return render(request, 'home/about.html', context)
 
 
+def store_locations(request):
+    store_locations = StoreLocation.objects.all()
+
+    context = {
+        'store_locations': store_locations,
+    }
+    return render(request, 'home/store-locations.html', context)
+
+
 def job_postings(request):
     job_postings = JobPosting.objects.filter(open=True)
 

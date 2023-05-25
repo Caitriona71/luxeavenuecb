@@ -27,25 +27,7 @@
             </div>
         </div>
     </div>
-    <h2 class="text-center heading"><strong>Our Branches</strong></h2>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
-                <div class="image-container my-5">
-                    {% for store_location in store_locations %}
-                        <a href="{{ store_location.photo.url }}" target="_blank">
-                            <img class="card-img-top img-fluid" src="{{ store_location.photo.url }}" alt="{{ store_location.name }}">
-                        </a>
-                        <h4 class="text-left"><strong>{{ store_location.name }}</strong></h4>
-                        <p class="text-left">{{ store_location.address }}</strong></p>
-                        <p class="text-left"><strong>{{ store_location.phone }}</strong></p>
-                </div>
-            </div>
-        </div>
-    </div>   
-{% endfor %} 
-
-
-  
     
-{%endblock%}
+    
+    {%endblock%}
+    
