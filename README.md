@@ -100,8 +100,8 @@ Luxe Avenue is a fictitious multi-brand full stack ecommerce store built using D
 | 37 | As a **customer** I can see a list of job vacancies so that I can apply if I am interested                               |                                                        |
 
 ***Epic 4: Registration and Accounts***
-| ID | User Story                                                                                                                                                         |                                                    |
-|----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+| ID | User Story                                                                                             |           
+|----|--------------------------------------------------------------------------------------------|
 | 38 | As a **customer** I can choose to register for an account so that I can use features for logged in users                                                           |                                                    |
 | 39 | As a **registered customer** I can easily log in to and out of my account so that I can access my account information                                              |                                                    |
 | 40 | As a **registered customer** I can easily reset my password if I forget it so that I can regain access to my account                                               |                                                    |
@@ -111,7 +111,7 @@ Luxe Avenue is a fictitious multi-brand full stack ecommerce store built using D
 | 44 | As a **customer** I can connect to the shops social media sites so that I can keep up to date with their products, promotions and offers                              |
 
 ***Epic 5: Searching and Filtering***
-| ID | User Story                                                                                                                                                       |
+| ID | User Story                                                                                                        |
 |----|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 45 | As a **customer** I can filter a specific category of products so that I can sort the products in that category by name                                          |
 | 46 | As a **customer** I can sort the list of available products so that I can view products by best priced,name and category alphabetically ascending and descending |
@@ -119,7 +119,7 @@ Luxe Avenue is a fictitious multi-brand full stack ecommerce store built using D
 
 ***Epic 6: Purchasing and Payment***
 
-| ID | User Story                                                                                                                                        |
+| ID | User Story                                                                                                        |
 |----|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | 48 | As a **customer** I can add more products of the same kind to my shopping bag so that I can purchase the correct quantity of the item that I need |
 | 49 | As a **customer** I can remove items from my shopping bag so that I am not purchasing what I dont need                                            |
