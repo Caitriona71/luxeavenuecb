@@ -56,7 +56,7 @@ Luxe Avenue is a fictitious multi-brand full stack ecommerce store built using D
 | 3  | As a **developer** I can setup the project basic apps so that the products can be displayed         |
 
 ***Epic 2: Admin/Shop Owner***
-| ID  | User Story                                                                                                                                                                 |   |
+| ID  | User Story                                                                                                                                                                
 |-----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|
 | 4   | As a **shop owner** I can log in so that I have full access to the store administration page                                                                              |   |
 | 5   | As a **shop owner** I can add products to the shop so that there is a good variety of products available                                                                  |   |
@@ -69,53 +69,68 @@ Luxe Avenue is a fictitious multi-brand full stack ecommerce store built using D
 | 12  | As a **shop owner** I can add a store finder so that customers can see a list of the shops branches and locate one nearest to them                                        |   |
 | 13  | As a **shop owner** I can display the privacy policy page on the site so that I can maintain privacy compliance and build user trust                                      |   |
 | 14  | As a **shop owner** I can create a sitemap xml and a robots.txt file so that search engines can find and index the new or updated website faster                          |   |
+| 15  | As a **shop owner** I can add a new job posting so that users can view and apply for the position
+| 16  | As a **shop owner** I can update job postings so that the most recent job postings are visible at all times
+| 17  | As a **shop owner** I can delete a job posting if the closing date has passed so that the most up to date job postings are visible at all times
+| 18  | As a **shop owner** I can add a store finder so that customers can see a list of the shop's branches and locate one nearest to them
+| 19  | As a **shop owner** I can add a new store to the store finder so that customers can find the nearest branch to them
+| 20  | As a **shop owner** I can edit contact information of shop branches so that the most up to date information is visible at all times
+| 21  | As a **shop owner** I can delete store branch information so that the customer can see which branches are open
+| 22  | As a **shop owner** I can add information and an image of staff so that customers can understand that our people are a major factor in the success of our business
+| 23  | As a **shop owner** I can add new staff members to our staff list so that our new staff members feel welcome and part of the team
+| 24  | As a **shop owner** I can edit the list of staff so that the information about staff is kept up to date on the website
+| 25  | As a **shop owner** I can delete staff from the staff list so that the staff information is kept up to date at all times
+
+
 
 ***Epic 3: Viewing and Navigation***
 | ID | User Story                                                                                                                       |
 |----|----------------------------------------------------------------------------------------------------------------------------------|
-| 15 | As a **customer** I can browse the website and easily  navigate throughout the site so that I can view the contents              |
-| 16 | As a **customer** I can view a list of products so that I can select some to purchase                                            |
-| 17 | As a **customer** I can view individual product details so that I can see the product price description and image                |
-| 18 | As a **customer** I can search for products by category or using the search bar so that I can easily find what I am looking for  |
-| 19 | As a **customer** I can easily view the total of my purchases so that I can keep track of my spending                            |
-| 20 | As a **customer** I can add multiple items to my shopping bag so that I can buy multiple items in the same transaction           |
-| 21 | As a **customer** I can make purchases as a guest so that I can place my order quickly without having to register for an account |
-| 22 | As a **customer** I can subscribe to the shops newsletter so that I can find out about new products and promotions               |
-| 23 | As a **customer** I can unsubscribe from the shops newsletter so that I don't have to receive newsletters anymore                 |
-| 24 | As a **customer** I can see a list of store branches so that I can find the closest one to me                                    |                                                        |
+| 26 | As a **customer** I can browse the website and easily  navigate throughout the site so that I can view the contents              |
+| 27 | As a **customer** I can view a list of products so that I can select some to purchase                                            |
+| 28 | As a **customer** I can view individual product details so that I can see the product price description and image                |
+| 29 | As a **customer** I can search for products by category or using the search bar so that I can easily find what I am looking for  |
+| 30 | As a **customer** I can easily view the total of my purchases so that I can keep track of my spending                            |
+| 31 | As a **customer** I can add multiple items to my shopping bag so that I can buy multiple items in the same transaction           |
+| 32 | As a **customer** I can make purchases as a guest so that I can place my order quickly without having to register for an account |
+| 33 | As a **customer** I can subscribe to the shops newsletter so that I can find out about new products and promotions               |
+| 34 | As a **customer** I can unsubscribe from the shops newsletter so that I don't have to receive newsletters anymore                 |
+| 35 | As a **customer** I can see a list of store branches so that I can find the closest one to me
+| 36 | As a **customer** I can see a list of store staff so that I can read about their skills, experience and background
+| 37 | As a **customer** I can see a list of job vacancies so that I can apply if I am interested                               |                                                        |
 
 ***Epic 4: Registration and Accounts***
 | ID | User Story                                                                                                                                                         |                                                    |
 |----|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
-| 25 | As a **customer** I can choose to register for an account so that I can use features for logged in users                                                           |                                                    |
-| 26 | As a **registered customer** I can easily log in to and out of my account so that I can access my account information                                              |                                                    |
-| 27 | As a **registered customer** I can easily reset my password if I forget it so that I can regain access to my account                                               |                                                    |
-| 28 | As a **registered customer** I can receive an email confirmation after registering for an account so that I can verify that my account registration was successful |                                                    |
-| 29 | As a **registered customer** I can easily register for an account so that I can view my profile                                                                    |                                                    |
-| 30 | As a **registered customer** I can have a personalized profile so that I can see my order history,  order confirmation and save my payment information |
-| 31 | As a **customer** I can connect to the shops social media sites so that I can keep up to date with their products, promotions and offers                              |
+| 38 | As a **customer** I can choose to register for an account so that I can use features for logged in users                                                           |                                                    |
+| 39 | As a **registered customer** I can easily log in to and out of my account so that I can access my account information                                              |                                                    |
+| 40 | As a **registered customer** I can easily reset my password if I forget it so that I can regain access to my account                                               |                                                    |
+| 41 | As a **registered customer** I can receive an email confirmation after registering for an account so that I can verify that my account registration was successful |                                                    |
+| 42 | As a **registered customer** I can easily register for an account so that I can view my profile                                                                    |                                                    |
+| 43 | As a **registered customer** I can have a personalized profile so that I can see my order history,  order confirmation and save my payment information |
+| 44 | As a **customer** I can connect to the shops social media sites so that I can keep up to date with their products, promotions and offers                              |
 
 ***Epic 5: Searching and Filtering***
 | ID | User Story                                                                                                                                                       |
 |----|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 32 | As a **customer** I can filter a specific category of products so that I can sort the products in that category by name                                          |
-| 33 | As a **customer** I can sort the list of available products so that I can view products by best priced,name and category alphabetically ascending and descending |
-| 34 | As a **customer** I can search for a product by name so that I can find the particular product I would like to buy                                               |
+| 45 | As a **customer** I can filter a specific category of products so that I can sort the products in that category by name                                          |
+| 46 | As a **customer** I can sort the list of available products so that I can view products by best priced,name and category alphabetically ascending and descending |
+| 47 | As a **customer** I can search for a product by name so that I can find the particular product I would like to buy                                               |
 
 ***Epic 6: Purchasing and Payment***
 
 | ID | User Story                                                                                                                                        |
 |----|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| 35 | As a **customer** I can add more products of the same kind to my shopping bag so that I can purchase the correct quantity of the item that I need |
-| 36 | As a **customer** I can remove items from my shopping bag so that I am not purchasing what I dont need                                            |
-| 37 | As a **customer** I can see items in my shopping bag so that I can keep track on what I am spending                                               |
-| 38 | As a **customer** I can enter my personal information and credit/debit card details so that I can complete  the purchasing process                |
-| 39 | As a **customer** I can view an order confirmation of my purchases so that I have a record of what I bought                                       |
+| 48 | As a **customer** I can add more products of the same kind to my shopping bag so that I can purchase the correct quantity of the item that I need |
+| 49 | As a **customer** I can remove items from my shopping bag so that I am not purchasing what I dont need                                            |
+| 50 | As a **customer** I can see items in my shopping bag so that I can keep track on what I am spending                                               |
+| 51 | As a **customer** I can enter my personal information and credit/debit card details so that I can complete  the purchasing process                |
+| 52 | As a **customer** I can view an order confirmation of my purchases so that I have a record of what I bought                                       |
 
 ***Epic 7: Digital Marketing***
 | ID | User Story                                                                                              |
 |----|---------------------------------------------------------------------------------------------------------|
-| 40 | As a **shop owner** I can create a facebook business page so that I can increase traffic to my website |<br><br>
+| 53 | As a **shop owner** I can create a facebook business page so that I can increase traffic to my website |<br><br>
 
 ## 2. Scope
 
