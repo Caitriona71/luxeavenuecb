@@ -56,8 +56,8 @@ Luxe Avenue is a fictitious multi-brand full stack ecommerce store built using D
 | 3  | As a **developer** I can setup the project basic apps so that the products can be displayed         |
 
 ***Epic 2: Admin/Shop Owner***
-| ID  | User Story                                                                                                                                                                
-|-----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|
+| ID  | User                                                                                                      Story                                                                                                      | 
+|-----|----------------------------------------------------------------------------------------------------|
 | 4   | As a **shop owner** I can log in so that I have full access to the store administration page                                                                              |   |
 | 5   | As a **shop owner** I can add products to the shop so that there is a good variety of products available                                                                  |   |
 | 6   | As a **shop owner** I can edit/delete a category so that the website is up to date at all times                                                                           |   |
