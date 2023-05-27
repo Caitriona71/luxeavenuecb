@@ -318,6 +318,8 @@ For the purposes of digital marketing, a requirement of the ecommerce project wa
 - **Google Fonts:** for selecting the font used for the project
 - **Coolers:** for generating a colour palette for website colour scheme
 - **RandomKeygen:** was used to generate secret key
+- **Privacy Policy Generator:** for generating company Privacy Policy and Terms & Conditions
+- **XML-Sitemaps:** for generating sitemap.xml
 - **Convertio:** used to convert images from png to webp format
 - **Table-magic** used to build tables in markdown
 - **Facebook:** used to create the Luxe Avenue facebook page
