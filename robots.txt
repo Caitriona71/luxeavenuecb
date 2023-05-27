@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /bag/
+Sitemap: https://luxeavenue.herokuapp.com/sitemap.xml
+
