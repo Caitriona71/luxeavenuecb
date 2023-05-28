@@ -33,6 +33,8 @@ This website application includes CRUD functionality, user authentication (using
    * [Typography](#typography)
    * [Media](#media)
 
+   [Search Engine Optimisation](#search-engine-optimisation)
+
    [Web Marketing](#web-marketing)
 
    [Technologies Used](#technologies-used)
@@ -47,6 +49,7 @@ This website application includes CRUD functionality, user authentication (using
    * [User Stories Testing](#user-stories-testing)
    * [Validator Testing](#validator-testing)
    * [Manual Testing](#manual-testing)
+   * [Lighthouse](#lighthouse)
 
 ## **UX**
 
@@ -413,6 +416,24 @@ To ensure the application is working and the functions are operating as expected
 
 ## **Manual Testing**
 
+- During the user story testing phase, I tested all the website features, dropdown lists, tabs and links on all pages on the front end to check that they are all functioning as expected.
+
+1. [Home Page](./readme-docs/manual-testing/home-page.png)
+2. [Products Page](./readme-docs/manual-testing/products-page.png)
+3. [Product Detail Page](./readme-docs/manual-testing/product-detail-page.png)
+4. [Shopping Bag Page](./readme-docs/manual-testing/shopping-bag.png)
+5. [Checkout Page](./readme-docs/manual-testing/checkout.png)
+6. [Order Confirmation Page](./readme-docs/manual-testing/order-confirmation-page.png)
+7. [About Us Icon](./readme-docs/manual-testing/about-us-icon.png)
+8. [Sign Up Page](./readme-docs/manual-testing/sign-up-page.png)
+9. [Sign In Page](./readme-docs/manual-testing/sign-in-page.png)
+10. [Sign Out Page](./readme-docs/manual-testing/sign-out-page.png)
+11. [Navigation Bar](./readme-docs/manual-testing/navigation-bar.png)
+12. [Footer Links](./readme-docs/manual-testing/footer-links.png)
+<br>
+
+- On the admin panel I have checked Authentication and Authorization Users, in Checkout I have checked that orders can be added, edited or deleted. In Home Job postings, staff members and Store locations I have checked that all those items can be added, edited and deleted also. And in Products I have checked that both categories and products can be added, edited and deleted. So all the features of the admin panel are functioning as expected.
+
 ## **Validator Testing**
 
 The W3C Markup Validator, W3C CSS Validator Services, JS Hint and PEP8 were used to validate the code to ensure there were no syntax errors in the project.
@@ -479,6 +500,10 @@ The Javascript file was checked using [JSHint](https://jshint.com/)
 | Profiles | countryfield.js    | No errors |
 | Checkout | stripe_elements.js | No errors |
 <br>
+
+## **Lighthouse**
+
+![Colors](./readme-docs/lighthouse/lighthouse.png)<br><br>
 
 ## **Code Formatting**
 HTML formatted using [HTML Formatter](https://webformatter.com)<br><br>
