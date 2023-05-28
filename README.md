@@ -2,7 +2,7 @@
 
 [View the live site here](https://luxeavenuecb.herokuapp.com) 
 
-![Am I Responsive](./assets/documentation/responsive-view.png)
+![Am I Responsive](./readme-docs/am-I-responsive/responsive-view.png)
 
 ## **Project Overview**
 
