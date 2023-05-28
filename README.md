@@ -37,6 +37,17 @@ This website application includes CRUD functionality, user authentication (using
 
    [Technologies Used](#technologies-used)
 
+   * [Languages](#languages)
+   * [Hosting](#hosting)
+   * [Frameworks, Libraries and Tools](#frameworks-libraries-and-tools)
+
+   [Testing](#testing)
+
+   * [Browser Compatibility](#browser-compatibility)
+   * [User Stories Testing](#user-stories-testing)
+   * [Validator Testing](#validator-testing)
+   * [Manual Testing](#manual-testing)
+
 ## **UX**
 
 ## 1. Strategy
@@ -328,7 +339,7 @@ For the purposes of digital marketing, a requirement of the ecommerce project wa
 
 ## Testing
 
-**Browser compatibility**
+## **Browser compatibility**
 
 The website was tested on browsers:
 - Google Chrome
@@ -400,9 +411,9 @@ To ensure the application is working and the functions are operating as expected
 |     | **Epic 7: Digital Marketing**                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |         |
 | 51. | As a **shop owner** I can create a facebook business page so that I can increase traffic to my website                                                                    | The Admin/Shop Owner has created a facebook page as a marketing strategy to connect with customers .                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Pass    |
 
+## **Manual Testing**
 
-
-**Validator Testing**
+## **Validator Testing**
 
 The W3C Markup Validator, W3C CSS Validator Services, JS Hint and PEP8 were used to validate the code to ensure there were no syntax errors in the project.
 
