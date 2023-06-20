@@ -27,9 +27,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['8000-caitriona71-luxeavenuec-dp7lq9hrhfd.ws-eu97.gitpod.io', 'luxeavenuecb.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['8000-caitriona71-luxeavenuec-dp7lq9hrhfd.ws-eu100.gitpod.io', 'luxeavenuecb.herokuapp.com', 'localhost']
 
 
 # Application definition
