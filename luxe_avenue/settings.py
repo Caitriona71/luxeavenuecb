@@ -29,7 +29,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'FALSE'
 
-ALLOWED_HOSTS = ['8000-caitriona71-luxeavenuec-dp7lq9hrhfd.ws-eu101.gitpod.io', '8000-caitriona71-luxeavenuec-dp7lq9hrhfd.ws-eu114.gitpod.io', 'luxeavenuecb.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+#'8000-caitriona71-luxeavenuec-dp7lq9hrhfd.ws-eu101.gitpod.io', '8000-caitriona71-luxeavenuec-dp7lq9hrhfd.ws-eu114.gitpod.io', 'luxeavenuecb.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -64,6 +65,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'allauth.account.middleware.AccountMiddleware',
+
 ]
 
 ROOT_URLCONF = 'luxe_avenue.urls'
@@ -132,6 +135,9 @@ else:
             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         }
     }
+
+print("DATABASE_URL:", os.environ.get('DATABASE_URL'))
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
