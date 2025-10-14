@@ -136,7 +136,7 @@ else:
         }
     }
 
-print("DATABASE_URL:", os.environ.get('DATABASE_URL'))
+#print("DATABASE_URL:", os.environ.get('DATABASE_URL'))
 
 
 # Password validation
@@ -230,3 +230,8 @@ else:
     EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
     EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
     DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
+
+    #DATABASES['default']['OPTIONS'] = {
+    #'psql_path': r'C:\Program Files\PostgreSQL\18\bin\psql.exe'
+#}
+
